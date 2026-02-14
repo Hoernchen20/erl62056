@@ -1,6 +1,3 @@
--ifndef(ERL62056_HRL).
--define(ERL62056_HRL, true).
-
 -type device_address() :: binary().
 -type request_message() :: {request_message, device_address()}.
 
@@ -17,5 +14,3 @@
 
 -type data_set() :: {binary(), binary(), binary() | undefined}.
 -type data_message() :: {data_message, [data_set()]}.
-
--endif

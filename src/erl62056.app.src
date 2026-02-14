@@ -1,6 +1,6 @@
 {application, erl62056, [
-    {description, "An OTP library"},
-    {vsn, "0.1.0"},
+    {description, "Erlang IEC62056 Client Library"},
+    {vsn, "0.0.0"},
     {registered, []},
     {applications, [
         kernel,
@@ -9,5 +9,5 @@
     {env, []},
     {modules, []},
     {licenses, ["Apache-2.0"]},
-    {links, []}
+    {links, [{"Github", "https://github.com/hoernchen20/erl62056"}]}
  ]}.
