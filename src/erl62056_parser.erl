@@ -4,8 +4,7 @@
 %%-------------------------------------------------------------------------------------------------
 -module(erl62056_parser).
 
-% TODO why is path needed ?
--include("../include/erl62056.hrl").
+-include("erl62056.hrl").
 
 -export([
     encode/1,
